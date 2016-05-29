@@ -11,5 +11,7 @@ tagline: Challenging the status quo of Software Engineering
   {% endfor %}
 </ul>
 
+<h1>{{ site.posts[0].title }}</h1>
+{{ site.posts[0].content }}
 
 
